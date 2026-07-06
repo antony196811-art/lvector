@@ -1,0 +1,485 @@
+BODY {
+	 background-color:#f1fdac; background-position:top left; background-repeat:no-repeat; margin:0;
+}
+
+#td17 {
+	 background-color:#ffffff; background-image:url(fon_pic.jpg); background-position:bottom right; background-repeat:no-repeat; border-right:1px solid #999999;
+}
+
+#td20 {
+	 background-color:#ffffff; border-right:1px solid #999999;
+}
+
+#td34 {
+	 background-image:url(menuleft.gif); background-position:top right; background-repeat:no-repeat;
+}
+
+#td36 {
+	 background-image:url(menuright.gif); background-position:top left; background-repeat:no-repeat;
+}
+
+#td35 {
+	 background-image:url(menucenter.gif);
+}
+
+#pageMainmenu .mbordl {
+	 display:none;
+}
+
+#pageMainmenu .mbordr {
+	 display:none;
+}
+
+#pageMainmenu .menu {
+	 color:#000000; font-size:12px; font-family:tahoma; text-decoration:none; background-image:url(mainmenupoint.gif); background-position:center left; background-repeat:no-repeat; padding-left:15px; margin-top:5px; margin-bottom:5px; display:block;
+}
+
+#pageMainmenu .tableMenu {
+	 margin-left:15px;
+}
+
+#td18 {
+	 background-color:#DFF1BC;
+}
+
+#td21 {
+	 background-color:#B9DA7A;
+}
+
+#pageMenu .menu {
+	 color:#000000; font-size:12px; font-family:tahoma; text-decoration:none; text-transform:lowercase; padding-top:6px; padding-bottom:10px; margin-top:25px; display:block; width:100px; text-align:center;
+}
+
+#pageMenu .mids {
+	 font-size:8px; display:none;
+}
+
+#pageMenu .mbordl {
+	 display:none;
+}
+
+#pageMenu .mbordr {
+	 display:none;
+}
+
+#pageMainmenu {
+	 margin-top:10px;
+}
+
+#pageMenu .tableMenu {
+	 display:block;
+}
+
+#pageMenu .menu#menuActive {
+	 background-color:#FFFFFF; background-image:url(activemenupunkt.gif); background-position:top left; background-repeat:no-repeat;
+}
+
+#pageMenu .TextItemMenu {
+	 padding-bottom:0px; display:block;
+}
+
+#pageMenu .TextActiveMenu {
+	 padding-bottom:0px; display:block;
+}
+
+#pageMenu .mtditem {
+	 display:block; height:47px;
+}
+
+.buttonSend {
+	 color:#000000; font-size:12px; font-family:tahoma; background-color:#ffffff; background-image:url(button.gif); border-style:none; display:block; width:131px; height:28px;
+}
+
+.contentText {
+	 color:#000000; font-size:12px; font-family:tahoma;
+}
+
+.objectNote {
+	 color:#000000; font-size:12px; font-family:tahoma;
+}
+
+#view .objectText {
+	 color:#000000; font-size:12px; font-family:tahoma; margin-top:10px; margin-bottom:10px;
+}
+
+#content {
+	 margin-top:20px; margin-bottom:20px; margin-left:20px; margin-right:30px;
+}
+
+.objectTitle {
+	 color:#000000; font-size:12px; font-weight:bold; font-family:tahoma; margin-top:20px; margin-bottom:20px;
+}
+
+.contentTitle {
+	 color:#000000; font-size:16px; font-family:tahoma; background-image:url(rtitle.gif); background-position:top left; background-repeat:no-repeat; padding-left:30px; height:22px;
+}
+
+a {
+	 font-size:12px; font-family:tahoma;
+}
+
+A:link {
+	 color:#6A9C32; text-decoration:underline;
+}
+
+A:visited {
+	 color:#83c240; text-decoration:underline;
+}
+
+A:hover {
+	 text-decoration:none;
+}
+
+#cont_guest #steplist {
+	 color:#000000; font-size:12px; font-family:tahoma;
+}
+
+#cont_guest #blockIp {
+	 margin-bottom:10px; display:block;
+}
+
+#guest .objectText {
+	 color:#617736; font-size:12px; font-family:tahoma; margin-top:5px; margin-bottom:10px; margin-left:20px;
+}
+
+.form_guest td.title {
+	 color:#000000; font-size:12px; font-family:tahoma;
+}
+
+#guest #msg {
+	 color:#000000; font-size:12px; font-family:tahoma;
+}
+
+#cont_mail .ml_fertxt {
+	 font-size:12px; font-family:tahoma;
+}
+
+#cont_mail .ml_tdTitle {
+	 color:#000000; font-size:12px; font-family:tahoma;
+}
+
+#cont_mail .ml_tdTitleComm {
+	 color:#000000; font-size:12px; font-family:tahoma;
+}
+
+#cont_mail #ml_autoreply {
+	 color:#000000; font-size:12px; font-family:tahoma;
+}
+
+#enteringText {
+	 color:#000000; font-size:12px; font-family:tahoma; margin-top:20px; margin-left:20px; margin-right:30px;
+}
+
+#closingText {
+	 color:#000000; font-size:12px; font-family:tahoma; margin-bottom:20px; margin-left:20px; margin-right:30px; clear:both;
+}
+
+#con_mapsite #maplinks0 {
+	 font-size:11px; font-weight:normal;
+}
+
+#con_mapsite #maplinks2 {
+	 font-size:11px; margin-left:30px;
+}
+
+#con_mapsite #maplinks3 {
+	 font-size:11px; font-weight:normal; margin-left:60px;
+}
+
+#cont_auth .tableTable {
+	 color:#000000; font-size:12px; font-family:tahoma;
+}
+
+#cont_auth .tableRow#tableHeader td {
+	 color:#ff0000; font-size:12px; font-family:tahoma; padding-bottom:20px;
+}
+
+#cont_auth #title {
+	 color:#000000; font-size:12px; font-family:tahoma;
+}
+
+#cont_auth #texts {
+	 color:#000000; font-size:11px; font-family:tahoma; margin-bottom:20px;
+}
+
+#cont_auth_end #error_message {
+	 color:#000000; font-size:12px; font-weight:normal; font-family:tahoma;
+}
+
+#cont_guest .tableBody td {
+	 color:#000000; font-size:12px; font-family:tahoma; vertical-align:middle;
+}
+
+#cont_guest .tableRow#tableHeader td {
+	 padding-top:3px; padding-bottom:3px; padding-left:3px;
+}
+
+INPUT {
+	 color:#000000; font-size:12px; font-family:tahoma; border-width:1px; border-color:#C6C6C6; border-style:solid;
+}
+
+TEXTAREA {
+	 color:#000000; font-size:12px; font-family:tahoma; border-width:1px; border-color:#c6c6c6; border-style:solid; width:100%;
+}
+
+#cont_search #search_warn {
+	 color:#ff0000; font-size:11px; font-family:tahoma;
+}
+
+#cont_search #countRec {
+	 margin-top:20px; margin-bottom:10px;
+}
+
+#cont_search #recResult {
+	 margin-top:10px; margin-bottom:10px;
+}
+
+#cont_search #recSearchText {
+	 color:#617736; margin-top:5px; margin-bottom:5px; margin-left:20px; margin-right:30px;
+}
+
+#cont_news #dataType_date {
+	 color:#666666; font-size:14px; font-weight:bold; font-family:tahoma;
+}
+
+#div360 {
+	 color:#666666; font-size:11px; font-family:tahoma; margin-top:20px;
+}
+
+#textTechnology {
+	 color:#666666; font-size:11px; font-family:tahoma; display:block;
+}
+
+#pageTechnology {
+	 margin-top:20px; display:block; width:200px;
+}
+
+#pageDesign {
+	 margin-top:20px; display:block; width:200px;
+}
+
+#textDesign {
+	 color:#666666; font-size:11px; font-family:tahoma; display:block;
+}
+
+#div363 {
+	 color:#666666; font-size:11px; font-family:tahoma; margin-top:20px;
+}
+
+#table399 {
+	 background-image:url(bline.gif); background-position:top left; background-repeat:repeat-x;
+}
+
+#td444 {
+	 background-color:#ffffff;
+}
+
+#td453 {
+	 background-color:#ffffff;
+}
+
+#content1 {
+	 margin-left:10px; margin-right:10px;
+}
+
+#siteTitle {
+	 color:#ffffff; font-size:24px; font-weight:normal; font-family:tahoma; margin:0; margin-right:30px;
+}
+
+#siteSubtitle {
+	 color:#ffffff; font-size:18px; font-weight:normal; font-family:tahoma; margin:0; margin-right:30px;
+}
+
+#td5 {
+}
+
+#td6 {
+}
+
+#td7 {
+}
+
+#tr8 {
+}
+
+#tr12 {
+}
+
+#td10 {
+}
+
+#table32 {
+}
+
+#tr33 {
+}
+
+#td14 {
+}
+
+#table15 {
+}
+
+#tr19 {
+}
+
+#tr443 {
+}
+
+#td401 {
+}
+
+#td404 {
+}
+
+#td406 {
+	 background-color:#F1FDAC;
+}
+
+#tr16 {
+	 background-color:#F1FDAC;
+}
+
+#table63 {
+}
+
+#tr64 {
+}
+
+#td65 {
+}
+
+#tr67 {
+}
+
+#td68 {
+}
+
+.content {
+	 clear:both;
+}
+
+.object {
+	 clear:both;
+}
+
+.objectImage {
+	 margin-bottom:10px; margin-right:20px; float:left;
+}
+
+.contentImage {
+	 margin-bottom:10px; margin-right:20px; float:left;
+}
+
+#cont_guest_free {
+	 font-size:13px; font-family:Arial;
+}
+
+#cont_guest_free .contentImage {
+	 border-width:1px;
+}
+
+#cont_guest_free #comments {
+	 font-size:13px; font-family:arial;
+}
+
+#cont_guest_free #comments .comm {
+	 border-width:1px; border-color:#B5C4D7; border-style:solid; margin-top:20px;
+}
+
+#cont_guest_free #comments .comm .userdat {
+	 background-color:#f0f3f7; margin-bottom:10px; display:block; height:22px;
+}
+
+#cont_guest_free #comments .comm .userdat .adm_lnk {
+	 color:#ffffff; font-weight:bold; text-decoration:none; background-color:#859db8; width:22px; height:22px; float:left; text-align:center; vertical-align:middle;
+}
+
+#cont_guest_free #comments .comm .userdat .date {
+	 margin-top:2px; margin-left:5px; float:left;
+}
+
+#cont_guest_free #comments .comm .userdat .name {
+	 margin-top:2px; margin-left:15px; float:left;
+}
+
+#cont_guest_free #comments .comm .com_txt {
+	 font-size:13px; margin-bottom:10px; margin-left:25px; margin-right:25px; display:block;
+}
+
+#cont_guest_free #comments .comm .adm_txt {
+	 background-color:#F8F8FA; padding-top:5px; padding-bottom:5px; padding-left:5px; padding-right:5px; border-width:1px; border-color:#c0c0c0; border-style:solid; margin-top:10px; margin-bottom:5px; margin-left:5px; margin-right:5px;
+}
+
+#cont_guest_free #comments .comm .admin_label {
+	 color:#464646; font-weight:bold; margin-bottom:10px; display:block;
+}
+
+#cont_guest_free #comments .pageselector {
+	 margin-top:12px; margin-bottom:20px; margin-left:10px;
+}
+
+#cont_guest_free #comments .pageselector .activpg {
+	 font-size:15px; margin-right:5px;
+}
+
+#cont_guest_free #comments .pageselector .pagesel {
+	 font-size:12px; margin-right:4px;
+}
+
+#cont_guest_free #guesttab .tablrow {
+	 padding-top:6px; text-align:left; vertical-align:top;
+}
+
+#cont_guest_free #guesttab .inp {
+	 font-size:13px; font-family:arial; display:block; width:100%; float:right; clear:both;
+}
+
+#cont_guest_free #guesttab #textar {
+	 font-size:13px; font-family:arial; padding-top:3px; padding-bottom:3px; padding-left:3px; padding-right:3px; width:100%;
+}
+
+#cont_guest_free #guesttab .tabltext {
+	 font-size:13px; font-family:arial;
+}
+
+#cont_guest_free .error {
+	 color:#ff0000; font-size:13px; font-family:arial; display:block; clear:both;
+}
+
+#cont_guest_free .errorinp {
+	 border-width:1px; border-color:#FF0000; border-style:solid;
+}
+
+#cont_guest_free #guesttab #pin_img {
+	 float:right;
+}
+
+#cont_mail_free .err {
+	 color:#FF0000; font-size:11px; font-weight:bold; font-family:Verdana;
+}
+
+#cont_mail_free .errorinp {
+	 border-width:1px; border-color:#FF0000; border-style:solid;
+}
+
+#cont_txt .contentImage {
+	 margin-right:10px; float:left;
+}
+
+#cont_txt .object {
+	 display:block; clear:both;
+}
+
+#cont_txt .objectImage {
+	 margin-right:10px; float:left;
+}
+
+#menuitem1 #pageMenu {
+	 background-color:#fced98;
+}
+
+#menuitem1 #pageMenu .menu {
+	 margin-top:0px;
+}
+
