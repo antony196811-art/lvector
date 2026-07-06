@@ -1,0 +1,194 @@
+/*Now the styles*/
+* {
+    margin: 0; 
+    padding: 0;
+}
+body {
+    background: #F5F5F5; 
+    font-family: arial, verdana, tahoma;
+}
+
+#header {
+    width: 805px;
+    margin: 25px auto;
+    text-align: center; 
+}
+
+#header h1, #header a {
+    color: #aaa;
+    text-shadow: 1px 1px 0 #FFF;
+    text-decoration: none !important;
+
+    transition: .4s color;
+    -webkit-transition: .4s color;
+    -moz-transition: .4s color;
+}
+
+#header a:hover {color: #888} 
+
+/*Time to apply widths for accordian to work
+Width of image = 640px
+total images = 5
+so width of hovered image = 640px
+width of un-hovered image = 40px - you can set this to anything
+so total container width = 640 + 40*4 = 800px;
+default width = 800/5 = 160px;
+*/
+
+.accordian {
+    width: 960px; height: 255px;
+    overflow: hidden;
+    
+    /*Time for some styling. Расстояние сверху*/
+    margin: 3px auto;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+}
+
+/*A small hack to prevent flickering on some browsers*/
+.accordian ul {
+    width: 2000px;
+    /*This will give ample space to the last item to move
+    instead of falling down/flickering during hovers.*/
+}
+/*Time for some styling. Ширина неактивных фото*/
+.accordian li {
+    position: relative;
+    display: block;
+    width: 135px;
+    float: left;
+    
+    border-left: 1px solid #888;
+    
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    
+    /*Transitions to give animation effect*/
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    /*If you hover on the images now you should be able to 
+    see the basic accordian*/
+}
+
+/*Reduce with of un-hovered elements*/
+.accordian ul:hover li {width: 60px;}
+/*Lets apply hover effects now*/
+/*The LI hover style should override the UL hover style*/
+.accordian ul li:hover {width: 590px;}
+
+.accordian li img {
+    display: block;
+}
+
+/*Картинки*/
+.image_title {
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 0; bottom: 0; 
+width: 640px;   
+
+}
+.image_title a {
+    display: block;
+    color: #fff !important;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 16px;
+}
+.style5 {
+	font-family: Verdana;
+	font-size: 11px;
+}
+a {
+	font-size: 12px;
+}
+.style20 {
+	font-size: 24px;
+	color: #333399;
+	font-family: Verdana, Tahoma;
+}
+a:link {
+	color: #006633;
+}
+a:visited {
+	color: #336600;
+}
+a:hover {
+	color: #336633;
+	font-size: 13px;
+}
+body {
+	background-color: #ffffcc;
+}
+.style25 {font-size: 24px; font-family: Verdana; color: #333399;}
+.style38 {font-family: Verdana}
+#table3 tbody #tr62 #td10 table tbody tr td .style1 {
+	color: #333399;
+}
+#table3 tbody #tr62 #td10 table tbody tr td .style1 {
+	font-size: 16px;
+}
+p {
+	font-size: 18px;
+}
+p {
+	font-size: 18px;
+}
+#table3 tbody #tr62 #td10 table tbody tr td .MsoNormal.style5 span {
+	color: #669;
+}
+#table3 tbody #tr62 #td10 table tbody tr td .MsoNormal.style5 span {
+	color: #036;
+}
+#table3 tbody #tr62 #td10 table tbody tr td .MsoNormal.style5 span {
+	color: #96C;
+}
+#table3 tbody #tr62 #td10 table tbody tr td .MsoNormal.style5 span {
+	color: #963;
+}
+#table3 tbody #tr62 #td10 table tbody tr td .style28 {
+	font-size: 15px;
+}
+.style47 {color: #006633}
+body,td,th {
+	font-family: Verdana;
+}
+#table3 tbody #tr67 #td14 #menuitem1 #pageMenu .tableMenu {
+	font-size: 13px;
+}.style51 {color: #ffffcc}#table3 tbody #tr62 #td10 table tbody tr td p {
+	font-size: 24px;
+}
+#table3 tbody #tr62 #td10 table tbody tr td .MsoNormal.style5 span span {
+	color: #333399;
+}
+#table3 {
+	font-family: Verdana;
+}
+#table3 {
+	font-size: 12px;
+}
+#table3 tbody #tr62 #table3 table tbody tr td .style1 {
+	color: #333399;
+}.style53 {
+	font-size: 14px;
+	color: #003366;
+}
+.style54 {font-family: Verdana; font-size: 14px; color: #003366; }
+.style62 {font-size: 12px}
+.style63 {
+	font-size: 12px;
+	color: #330099;
+}
+.style64 {font-family: Verdana; font-size: 18px; color: #330099; }
+.style65 {color: #FFCC00}
+.style67 {font-size: 10px}.style68 {font-family: Verdana, Tahoma; text-align: center; color: #663399;}
+.style69 {color: #333399; font-family: Verdana;}
+.style70 {color: #000}
+.style72 {font-size: 12px; color: #003366; }
+.style75 {color: #003366; font-size: 11px; }
+.style77 {color: #330099}
+.submenu,.submenu1,.submenun { visibility:hidden; position:absolute;  z-index:1000; }
+.mtditem { float:left;}
